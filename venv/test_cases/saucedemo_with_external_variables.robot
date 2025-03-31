@@ -1,34 +1,16 @@
-# Settings tab is used to add libraries, resources etc
 *** Settings ***
 Library    SeleniumLibrary
-Resource    ../resources/resources_saucedemo.robot
+Resource    ../resources/resources_saucedemo_with_external_variables.robot
 Variables    ../resources/variables.py
 
-# Set of variables
-*** Variables ***
-${URL}    http://www.saucedemo.com
-${Browser}    Chrome
-
-#Users
-${StandardUser}    standard_user
-${LockedOutUser}    locked_out_user
-${ProblemUser}    problem_user
-${PerformanceGlitchUser}    performance_glitch_user
-${ErrorUser}    error_user
-${VisualUser}    visual_user
-
-${Password}    secret_sauce
-
-# List of test cases
 *** Test Cases ***
 Log In With Standard User
-    # open browser will open given browser and url
-    [Setup]    Open Browser And Maximize   ${URL}  ${Browser}
-    [Teardown]    Close Browser Window
+    [Setup]    Open Browser And Maximize   ${url}    ${browser_name}
+    [Teardown]    Close Browser Window And Log
     sleep    2
     # input text will find element and insert text into it
     sleep    2
-    Attempt To Login To Website    ${StandardUser}    ${Password}
+    Attempt To Login To Website    ${standard_user}    ${password}
     Successfull Login To Website
     ${Title}=    get title
     log    Page titlr is:${Title}
@@ -42,10 +24,11 @@ Log In With Standard User
     capture page screenshot
     capture element screenshot    xpath://*[@id="item_3_img_link"]/img
     sleep    2
+    Change Sorting Method    ${sort_hilo}
     Logout From Website
 
     sleep    2
-    Attempt To Login To Website    ${ProblemUser}    ${Password}
+    Attempt To Login To Website    ${problem_user}    ${password}
     sleep    2
     Successfull Login To Website
     sleep    2
@@ -60,7 +43,7 @@ Log In With Standard User
     clear element text    name:user-name
     clear element text    id:password
     sleep    2
-    Attempt To Login To Website    ${LockedOutUser}    ${Password}
+    Attempt To Login To Website    ${locked_out_user}    ${password}
     sleep    2
     Unsuccessfull Login To Website
     sleep    2

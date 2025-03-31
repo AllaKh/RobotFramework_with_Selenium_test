@@ -1,7 +1,7 @@
 # Settings tab is used to add libraries, resources etc
 *** Settings ***
 Library    SeleniumLibrary
-Resource    ../resources/resources.robot
+Resource    ../resources/resources_thetestingworld.robot
 
 # Set of variables
 *** Variables ***

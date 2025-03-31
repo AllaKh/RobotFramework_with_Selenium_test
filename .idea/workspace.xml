@@ -4,25 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acd19fe2-3462-4f56-8186-72a1d4fae6ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/robot_framework_tester.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/resources/resources.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/test_cases/saucedemo.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/test_cases/thetestingworld.robot" afterDir="false" />
+    <list default="true" id="acd19fe2-3462-4f56-8186-72a1d4fae6ca" name="Changes" comment="RobotFramework Project">
+      <change afterPath="$PROJECT_DIR$/venv/external_keywords/user_keywords_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/external_keywords/user_keywords_02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/external_keywords/user_keywords_03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/resources/resources_saucedemo.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/resources/resources_saucedemo_with_external_variables.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/resources/resources_thetestingworld.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/resources/variables.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/test_cases/saucedemo_with_external_variables.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/resources/resources.robot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/test_cases/saucedemo.robot" beforeDir="false" afterPath="$PROJECT_DIR$/venv/test_cases/saucedemo.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/test_cases/thetestingworld.robot" beforeDir="false" afterPath="$PROJECT_DIR$/venv/test_cases/thetestingworld.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AllaKh&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AllaKh/robot_framework_tester.git&quot;,
+    &quot;accountId&quot;: &quot;27ad4f1e-0e25-4723-9970-ebe9126e9c04&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -38,12 +60,57 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;I:/Python Projects/robot_framework_tester&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RobotOptionsProvider">
     <option name="debug" value="true" />
     <option name="capitalizeKeywords" value="true" />
+  </component>
+  <component name="RunManager" selected="Robot Runner.saucedemo - &quot;Log In With Standard User&quot;">
+    <configuration name="Unnamed" type="robot-runner" factoryName="RobotRunConfigurationFactory">
+      <option name="extraArguments" />
+      <option name="logFilePath" />
+      <option name="logTitle" />
+      <option name="outputDirPath" />
+      <option name="outputFilePath" />
+      <option name="pabotArguments" />
+      <option name="reportFilePath" />
+      <option name="reportTitle" />
+      <option name="sdkHomePath" />
+      <method v="2" />
+    </configuration>
+    <configuration name="saucedemo - &quot;Log In With Standard User&quot;" type="robot-runner" factoryName="RobotRunConfigurationFactory" temporary="true">
+      <option name="extraArguments" />
+      <option name="logFilePath" />
+      <option name="logTitle" />
+      <option name="outputDirPath" />
+      <option name="outputFilePath" />
+      <option name="pabotArguments" />
+      <option name="reportFilePath" />
+      <option name="reportTitle" />
+      <option name="sdkHomePath" />
+      <option name="suitePaths">
+        <list>
+          <option value="$PROJECT_DIR$/venv/test_cases/saucedemo.robot" />
+        </list>
+      </option>
+      <option name="testNames">
+        <list>
+          <option value="*Log In With Standard User*" />
+        </list>
+      </option>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Robot Runner.Unnamed" />
+      <item itemvalue="Robot Runner.saucedemo - &quot;Log In With Standard User&quot;" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Robot Runner.saucedemo - &quot;Log In With Standard User&quot;" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -61,6 +128,15 @@
       <option name="presentableId" value="Default" />
       <updated>1743203504929</updated>
     </task>
+    <task id="LOCAL-00001" summary="RobotFramework Project">
+      <option name="closed" value="true" />
+      <created>1743379291305</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1743379291305</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -73,5 +149,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="RobotFramework Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="RobotFramework Project" />
   </component>
 </project>
