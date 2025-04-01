@@ -1,0 +1,6 @@
+https://robocorp.com/docs-robot-framework/libraries
+https://robotframework.org/?tab=0&example=Simple%20Example#getting-started
+https://www.saucedemo.com/
+https://github.com/GammaIntelligenceTraining/RobotFramework/tree/main
+https://github.com/ChristianAA/robot-framework-example
+https://github.com/reinaldorossetti/robot_automation

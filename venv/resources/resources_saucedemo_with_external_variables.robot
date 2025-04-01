@@ -44,26 +44,28 @@ Change Sorting Method
     sleep    5
 
 Add Product To Cart
-    [Arguments]    ${ProductNameIdentifier}    ${ButtonIdentifier}
-    ${Product}=    get text    ${ProductNameIdentifier}
-    log    ${Product}
-    click button    ${ButtonIdentifier}
+    [Arguments]    ${product_id}    ${product_price_id}    ${add_btn_id}
+    ${product_name}=    get text    xpath:${product_id}
+    ${product_price}=    get text    xpath:${product_price_id}
+    log    Product name: ${product_name}
+    log    Product price: ${product_price}
+    click button    ${add_btn_id}
+
+Open Shoping Cart
+    click link    xpath://*[@id="shopping_cart_container"]/a
+    set screenshot directory    ../screenshots_cart
+    capture element screenshot    xpath://*[@id="cart_contents_container"]/div/div[1]
 
 Checkout Shopping Cart
-    [Arguments]    ${FirstName}    ${LastName}    ${ZIP}    ${CheckSum}
-    click link    xpath://*[@id="shopping_cart_container"]/a
-    set screenshot directory    screenshots
-    capture element screenshot    xpath://*[@id="cart_contents_container"]/div/div[1]
+    [Arguments]    ${user_first_mane}    ${user_last_name}    ${user_zip}
     click button    id:checkout
-    input text    id:first-name    ${FirstName}
-    input text    id:last-name    ${LastName}
-    input text    id:postal-code    ${ZIP}
-    sleep    5
+    input text    id:first-name    ${user_first_mane}
+    input text    id:last-name    ${user_last_name}
+    input text    id:postal-code    ${user_zip}
+    sleep    3
     click button    id:continue
     scroll element into view    id:finish
     capture element screenshot    xpath://*[@id="checkout_summary_container"]/div/div[2]
-    element should contain    xpath://*[@id="checkout_summary_container"]/div/div[2]/div[7]    ${CheckSum}
-    ${Price}=    get text    xpath://*[@id="checkout_summary_container"]/div/div[2]/div[7]
-    log    ${Price}
     click button    id:finish
+    page should contain    Thank you for your order!
     click button    id:back-to-products

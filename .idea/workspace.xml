@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acd19fe2-3462-4f56-8186-72a1d4fae6ca" name="Changes" comment="RobotFramework Project">
-      <change afterPath="$PROJECT_DIR$/venv/external_keywords/user_keywords_01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/external_keywords/user_keywords_02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/external_keywords/user_keywords_03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/resources/resources_saucedemo.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/resources/resources_saucedemo_with_external_variables.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/resources/resources_thetestingworld.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/resources/variables.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/test_cases/saucedemo_with_external_variables.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/documentation/RobotFramework resources.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/resources/resources.robot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/test_cases/saucedemo.robot" beforeDir="false" afterPath="$PROJECT_DIR$/venv/test_cases/saucedemo.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/resources/resources_saucedemo_with_external_variables.robot" beforeDir="false" afterPath="$PROJECT_DIR$/venv/resources/resources_saucedemo_with_external_variables.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/resources/resources_thetestingworld.robot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/resources/variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/resources/variables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/test_cases/saucedemo_with_external_variables.robot" beforeDir="false" afterPath="$PROJECT_DIR$/venv/test_cases/saucedemo_with_external_variables.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/test_cases/thetestingworld.robot" beforeDir="false" afterPath="$PROJECT_DIR$/venv/test_cases/thetestingworld.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -136,7 +131,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743379291305</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="RobotFramework Project">
+      <option name="closed" value="true" />
+      <created>1743463288454</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1743463288454</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

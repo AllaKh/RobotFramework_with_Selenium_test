@@ -3,21 +3,18 @@ url = 'http://www.saucedemo.com'
 browser_name = 'Chrome'
 
 # Users
-standard_user = 'standard_user'
-locked_out_user = 'locked_out_user'
-problem_user = 'problem_user'
-performance_glitch_user = 'performance_glitch_user'
-error_user = 'error_user'
-visual_user = 'visual_user'
+user_names = ['standard_user','locked_out_user','problem_user','performance_glitch_user','error_user','visual_user']
 
 # Password
 password = 'secret_sauce'
 
 # Sorting Methods
-sort_az = 'az'
-sort_za = 'za'
-sort_lohi = 'lohi'
-sort_hilo = 'hilo'
+sort_method = ['hilo','lohi','za','az']
+
+# Credentials
+first_name = 'Alla'
+last_name = 'Kh'
+zip = '123456'
 
 LIST_ADD_BTNS = [
     'add-to-cart-sauce-labs-backpack',
