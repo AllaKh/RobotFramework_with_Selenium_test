@@ -9,7 +9,7 @@ ${StandardUser}    standard_user
 ${Password}    secret_sauce
 
 *** Test Cases ***
-Log In With Standard User
+Log In With Different Users
     [Setup]    Open Browser And Maximize   ${url}    ${browser_name}
     [Teardown]    Close Browser Window And Log
     sleep    2
