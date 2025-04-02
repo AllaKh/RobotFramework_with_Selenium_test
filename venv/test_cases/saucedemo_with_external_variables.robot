@@ -8,7 +8,7 @@ Variables    ../resources/variables.py
 ${StandardUser}    standard_user
 ${Password}    secret_sauce
 
-${chrome_options}  --disable-popup-blocking --disable-save-password-bubble
+${chrome_options}  add_experimental_option("prefs", {"credentials_enable_service": False, "profile.password_manager_enabled": False})
 
 *** Test Cases ***
 Log In With Different Users
