@@ -8,9 +8,11 @@ Variables    ../resources/variables.py
 ${StandardUser}    standard_user
 ${Password}    secret_sauce
 
+${chrome_options}  --disable-popup-blocking --disable-save-password-bubble
+
 *** Test Cases ***
 Log In With Different Users
-    [Setup]    Open Browser And Maximize   ${url}    ${browser_name}
+    [Setup]    Open Browser And Maximize   ${url}    ${browser_name}    options=${chrome_options}
     [Teardown]    Close Browser Window And Log
     sleep    2
     # input text will find element and insert text into it
@@ -43,7 +45,7 @@ Log In With Different Users
     END
 
 Add Product To Cart and Check Out
-    [Setup]    Open Browser And Maximize   ${url}    ${browser_name}
+    [Setup]    Open Browser And Maximize   ${url}    ${browser_name}    options=${chrome_options}
     [Teardown]    Close Browser Window And Log
     sleep    2
     # input text will find element and insert text into it
@@ -56,7 +58,7 @@ Add Product To Cart and Check Out
     sleep    2
     FOR    ${sort_order}    IN    @{sort_method}
         Change Sorting Method    ${sort_order}
-        sleep    2
+        sleep    1
     END
     Add Product To Cart    //*[@id="item_4_title_link"]/div    //*[@id="inventory_container"]/div/div[1]/div[2]/div[2]/div    id:add-to-cart-sauce-labs-backpack
     wait until element is visible    id:remove-sauce-labs-backpack

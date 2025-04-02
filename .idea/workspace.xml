@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="acd19fe2-3462-4f56-8186-72a1d4fae6ca" name="Changes" comment="RobotFramework Project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/resources/resources_saucedemo_with_external_variables.robot" beforeDir="false" afterPath="$PROJECT_DIR$/venv/resources/resources_saucedemo_with_external_variables.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/test_cases/saucedemo_with_external_variables.robot" beforeDir="false" afterPath="$PROJECT_DIR$/venv/test_cases/saucedemo_with_external_variables.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743546541530</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="RobotFramework Project">
+      <option name="closed" value="true" />
+      <created>1743547761311</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1743547761311</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

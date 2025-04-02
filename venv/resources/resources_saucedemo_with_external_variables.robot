@@ -3,8 +3,8 @@ Library    SeleniumLibrary
 
 *** Keywords ***
 Open Browser and Maximize
-    [Arguments]    ${user_url}    ${user_browser}
-    open browser    ${user_url}    ${user_browser}
+    [Arguments]    ${user_url}    ${user_browser}    ${option}
+    open browser    ${user_url}    ${user_browser}    ${option}
     maximize browser window
     log    Starting test in ${user_browser}
     log    Test URL: ${user_url}
