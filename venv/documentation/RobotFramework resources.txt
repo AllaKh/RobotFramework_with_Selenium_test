@@ -4,3 +4,4 @@ https://www.saucedemo.com/
 https://github.com/GammaIntelligenceTraining/RobotFramework/tree/main
 https://github.com/ChristianAA/robot-framework-example
 https://github.com/reinaldorossetti/robot_automation
+https://github.com/AllaKh/robot_framework_tester
