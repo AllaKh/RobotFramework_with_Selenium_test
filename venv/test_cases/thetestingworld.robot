@@ -9,7 +9,7 @@ ${Browser}    Chrome
 
 # List of test cases
 *** Test Cases ***
-My First Test Case
+Log In Test Case
     # open browser will open given browser and url
     Open Browser And Maximize   ${URL}  ${Browser}
 
