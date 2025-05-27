@@ -1,6 +1,7 @@
 # Settings
 url = 'http://www.saucedemo.com'
-browser_name = 'Chrome'
+browser_name = 'firefox'
+# browser_name = 'Chrome'
 
 # Users
 user_names = ['standard_user','locked_out_user','problem_user','performance_glitch_user','error_user','visual_user']

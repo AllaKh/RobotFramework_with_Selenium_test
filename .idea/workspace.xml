@@ -6,8 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="acd19fe2-3462-4f56-8186-72a1d4fae6ca" name="Changes" comment="RobotFramework Project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/resources/resources_saucedemo_with_external_variables.robot" beforeDir="false" afterPath="$PROJECT_DIR$/venv/resources/resources_saucedemo_with_external_variables.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/test_cases/saucedemo_with_external_variables.robot" beforeDir="false" afterPath="$PROJECT_DIR$/venv/test_cases/saucedemo_with_external_variables.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/resources/resources_saucedemo.robot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/resources/resources_saucedemo_with_external_variables.robot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/resources/variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/resources/variables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/test_cases/saucedemo.robot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/test_cases/saucedemo_with_external_variables.robot" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +35,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/AllaKh/robot_framework_tester.git&quot;,
-    &quot;accountId&quot;: &quot;27ad4f1e-0e25-4723-9970-ebe9126e9c04&quot;
+    &quot;url&quot;: &quot;https://github.com/AllaKh/robot_framework_tester&quot;,
+    &quot;accountId&quot;: &quot;17963f33-950a-4c7e-8c75-ec9d2c1c7ac0&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -48,6 +51,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;I:/Python Projects/robot_framework_tester&quot;,
@@ -83,7 +87,7 @@
       <option name="sdkHomePath" />
       <option name="suitePaths">
         <list>
-          <option value="$PROJECT_DIR$/venv/test_cases/saucedemo.robot" />
+          <option value="$PROJECT_DIR$/venv/test_cases/saucedemo_chrome.robot" />
         </list>
       </option>
       <option name="testNames">
@@ -106,7 +110,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-6a3326d57233-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.24807.21" />
+        <option value="bundled-python-sdk-4f4e415b4190-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.26053.29" />
       </set>
     </attachedChunks>
   </component>
@@ -137,29 +141,13 @@
     </task>
     <task id="LOCAL-00003" summary="RobotFramework Project">
       <option name="closed" value="true" />
-      <created>1743534006953</created>
+      <created>1743617785987</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1743534006953</updated>
+      <updated>1743617785988</updated>
     </task>
-    <task id="LOCAL-00004" summary="RobotFramework Project">
-      <option name="closed" value="true" />
-      <created>1743546541530</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1743546541530</updated>
-    </task>
-    <task id="LOCAL-00005" summary="RobotFramework Project">
-      <option name="closed" value="true" />
-      <created>1743547761311</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1743547761311</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
