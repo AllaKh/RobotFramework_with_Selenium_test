@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acd19fe2-3462-4f56-8186-72a1d4fae6ca" name="Changes" comment="RobotFramework Project">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/resources/resources_saucedemo_with_external_variables.robot" beforeDir="false" afterPath="$PROJECT_DIR$/venv/resources/resources_saucedemo_with_external_variables.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/test_cases/saucedemo_with_external_variables.robot" beforeDir="false" afterPath="$PROJECT_DIR$/venv/test_cases/saucedemo_with_external_variables.robot" afterDir="false" />
-    </list>
+    <list default="true" id="acd19fe2-3462-4f56-8186-72a1d4fae6ca" name="Changes" comment="RobotFramework Project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
